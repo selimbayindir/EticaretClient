@@ -1,0 +1,11 @@
+Admin                                                   UI
+Order       =>OrderModule                               Product =>ProductModule                                     Not:Module ler import edilir
+Product     =>ProductModule                             Home    =>HomeModule                                            Componentler declare edilir
+Customer    =>CustomerModule                            Basket  =>BasketModule 
+Dashboard    =>DashboardModule
+-------------------------------                        -------------------------------
+Admin Module                                           UI Module
+---------------------------------------------------------------------------------------------
+                                       AppModüle                            
+AppModule        : Uygulamada tüm modüllerin ve componentlerin declare edildiği yerdir.
+AppRoutingModüle :Rotası şu Rotası BU DERİZ /order ==>OrderComponent /product =>ProductComponent,
