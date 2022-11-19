@@ -9,3 +9,13 @@ Admin Module                                           UI Module
                                        AppModüle                            
 AppModule        : Uygulamada tüm modüllerin ve componentlerin declare edildiği yerdir.
 AppRoutingModüle :Rotası şu Rotası BU DERİZ /order ==>OrderComponent /product =>ProductComponent,
+
+
+<app-root></app-root> ==>
+
+PS C:\Users\byndr\Desktop\App\AppClient\EticaretClient\src\app\components> ng g component product   
+PS C:\Users\byndr\Desktop\App\AppClient\EticaretClient\src\app\components> ng g component category   
+PS C:\Users\byndr\Desktop\App\AppClient\EticaretClient\src\app\components> ng g component navbar   
+
+ npm install bootstrap
+ angular.json uygulama konfigurasyonları yapılır. => "styles": [ /*Uygulama Boyunca Tüm komponentlerde geçerli olacak paketler*/
